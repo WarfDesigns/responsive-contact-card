@@ -4,10 +4,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: "/images/black-scratch.png";
+    background-image: "../images/black-scratch.webp";
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: grid;
+    columns: 1fr;
+    gap: 10px;
 }
 .card {
 
@@ -21,8 +24,12 @@ body {
 .phone {
 
 }
+picture {
+    
+}
 section {
-
+    display: grid;
+    columns: 1fr;
 }
 .title {
 
@@ -41,6 +48,9 @@ section {
     
     }
     .phone {
+    
+    }
+    picture {
     
     }
     section {
@@ -66,8 +76,11 @@ section {
     .phone {
     
     }
+    picture {
+    
+    }
     section {
-        
+
     }
     .title {
     
