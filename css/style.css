@@ -1,0 +1,18 @@
+@import "/css/reset.css";
+body {
+    font-family: "Open Sans", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: "/images/black-scratch.png";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen {
+    
+}
+@media screen {
+    
+}
