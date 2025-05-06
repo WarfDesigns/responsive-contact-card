@@ -9,10 +9,70 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.card {
 
-@media screen {
-    
+}
+.company {
+
+}
+.logo {
+
+}
+.phone {
+
+}
+section {
+
+}
+.title {
+
+}
+.wrapper{
+
 }
 @media screen {
+    .card {
+
+    }
+    .company {
     
+    }
+    .logo {
+    
+    }
+    .phone {
+    
+    }
+    section {
+
+    }
+    .title {
+    
+    }
+    .wrapper{
+    
+    }
+}
+@media screen {
+    .card {
+
+    }
+    .company {
+    
+    }
+    .logo {
+    
+    }
+    .phone {
+    
+    }
+    section {
+        
+    }
+    .title {
+    
+    }
+    .wrapper{
+    
+    }
 }
