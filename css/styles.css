@@ -3,46 +3,55 @@ body {
     font-family: "Open Sans", serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 50px;
     background-image: "../images/black-scratch.webp";
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: black;
     display: grid;
     columns: 1fr;
     
 }
 .card {
-
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+    row-gap: 0.5rem;
+    color: black;
 }
 .company {
-
+    
 }
 .logo {
     background-color: rgb(51, 51, 51);
     padding: 60px;
 }
 .name {
-
+    font-size: 1rem;
 }
 .phone {
 
 }
 .profile-photo > img {
     border-radius: 50%;
+    padding: 30px;
 }
 section {
 
 }
 .title {
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 .wrapper{
     background-color: white;
     border-radius: 5px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+    
 }
-@media screen {
+@media (max-width: 500px) {
     .card {
 
     }
@@ -71,7 +80,7 @@ section {
     
     }
 }
-@media screen {
+@media (max-width: 790px) {
     .card {
 
     }
