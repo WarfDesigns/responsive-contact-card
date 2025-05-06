@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     display: grid;
     columns: 1fr;
-    gap: 10px;
+    
 }
 .card {
 
@@ -19,23 +19,28 @@ body {
 
 }
 .logo {
+    background-color: rgb(51, 51, 51);
+    padding: 60px;
+}
+.name {
 
 }
 .phone {
 
 }
-picture {
-    
+.profile-photo > img {
+    border-radius: 50%;
 }
 section {
-    display: grid;
-    columns: 1fr;
+
 }
 .title {
-
+    font-size: 1rem;
 }
 .wrapper{
-
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
 }
 @media screen {
     .card {
@@ -46,6 +51,9 @@ section {
     }
     .logo {
     
+    }
+    .name{
+
     }
     .phone {
     
@@ -72,6 +80,9 @@ section {
     }
     .logo {
     
+    }
+    .name {
+
     }
     .phone {
     
