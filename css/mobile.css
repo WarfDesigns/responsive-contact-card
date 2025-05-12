@@ -14,17 +14,16 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
+    grid-template-columns: 1fr;
 }
 .card {
     display: grid;
-    place-items: center;
-    grid-auto-flow: row;
+    place-items: center; 
     row-gap: 0.5rem;
-    color: black;
-    max-width: 340px;
+    color: rgb(255, 255, 255);
     margin: 0px;
-    align-content: space-between;
     padding: 0px;
+    justify-self: center;
 }
 .card p {
     margin: 0;
@@ -77,4 +76,6 @@ section {
     padding: 0;
     max-height: 500px;
     display: grid;
+    justify-self: center;
+    
 }

@@ -1,19 +1,5 @@
 @media (min-width: 500px) {
-body {
-    font-family: "Open Sans", serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: black url("../images/black-scratch.webp") center/cover no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: black;
-    display: grid;
-    columns: 1fr;
-    justify-items: center;
-    
-}
+
 .card {
     display: grid;
     place-items: center;
@@ -24,7 +10,6 @@ body {
     margin: 0px;
     padding: 0px;
     grid-template-columns: 1fr;
-    margin: -200px;
 }
 .card p {
     margin: 0;
@@ -80,6 +65,7 @@ section {
     display: grid;
     place-items: center;
     grid-template-columns: 1fr;
-    width: 90%;
+    justify-self: center;
+    min-width: 90%;
     }
 }
