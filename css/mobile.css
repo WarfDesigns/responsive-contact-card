@@ -5,7 +5,7 @@ body {
     font-family: "Open Sans", serif;
     line-height: 1.6;
     margin: 0;
-    padding: 5%;
+    padding: 0;
     background: black url("../images/black-scratch.webp") center/cover no-repeat;
     background-size: cover;
     background-position: center;
@@ -61,6 +61,14 @@ section {
     font-size: 2rem;
     font-weight: bolder;
     margin: 0;       
+}
+.text-and-logo {
+    display: grid;
+    place-items: center;
+    row-gap: 0.5rem;
+    color: black;
+    margin: 0px;
+    padding: 0px;
 }
 .wrapper{
     background-color: white;
