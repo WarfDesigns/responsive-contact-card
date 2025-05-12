@@ -1,0 +1,74 @@
+
+@media (min-width: 790px) {
+body {
+    font-family: "Open Sans", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 5%;
+    background: black url("../images/black-scratch.webp") center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: grid;
+    columns: 1fr;
+    justify-items: center;
+    
+}
+.card {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+    row-gap: 0.5rem;
+    color: black;
+    max-width: 500px;
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.company {
+    margin:0;
+}
+.logo {
+    background-color: rgb(51, 51, 51);
+    padding: 45px;
+    width: 100%;
+    margin: 0px;
+    
+}
+.logo > img {
+    max-width: 200px;
+    height: auto;
+}
+.name {
+    font-size: 1rem;
+}
+.phone {
+    margin:0;
+}
+.profile-photo > img {
+    border-radius: 50%;
+    padding: 0px;
+    max-width: 200px;
+}
+section {
+    margin:0;
+    
+}
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0;       
+}
+.wrapper{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    max-height: 500px;
+    display: grid;
+    width: 500px;;
+    grid-template-columns: 1fr 2fr;
+}
+}

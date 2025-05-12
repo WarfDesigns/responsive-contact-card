@@ -1,0 +1,72 @@
+@import "/css/reset.css";
+@import "/css/tablet.css";
+@import "/css/desktop.css";
+body {
+    font-family: "Open Sans", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 5%;
+    background: black url("../images/black-scratch.webp") center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.card {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+    row-gap: 0.5rem;
+    color: black;
+    max-width: 340px;
+    margin: 0px;
+    align-content: space-between;
+    padding: 0px;
+}
+.card p {
+    margin: 0;
+    text-align: center;
+}
+.company {
+    margin:0;
+}
+.logo {
+    background-color: rgb(51, 51, 51);
+    padding: 45px;
+    max-width: 300px;
+    margin: 0px;
+}
+.logo > img {
+    max-width: 200px;
+    height: auto;
+}
+.name {
+    font-size: 1rem;
+}
+.phone {
+    margin:0;
+}
+.profile-photo > img {
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 200px;
+}
+section {
+    margin:0;
+}
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0;       
+}
+.wrapper{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    max-height: 500px;
+    display: grid;
+}
